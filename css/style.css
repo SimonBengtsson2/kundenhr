@@ -71,6 +71,7 @@
 .main2 {
     grid-area: 4 / 1 / 6 / 7;
     background-color: blueviolet;
+    
 }
 
 .footer2 {
@@ -151,6 +152,10 @@
     grid-area: 2 / 3 / 4 / 4;
     background-color: chartreuse;
     border-radius: 40px;
+    background-image: url('../misc/reptile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .card4 {
