@@ -257,6 +257,9 @@
     background-color: darkgrey;
     border-radius: 40px;
     position: relative;
+background-image: url('../misc/pexels-alleksana-4113655.jpg');
+background-size: contain;
+background-repeat: repeat;
 }
 
 .card4::before {
@@ -291,6 +294,7 @@
     background-color: goldenrod;
     border-radius: 40px;
     position: relative;
+   
 }
 .card5::before {
     content: "";
