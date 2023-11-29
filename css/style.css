@@ -11,17 +11,22 @@
     .nav{ grid-area: 1 / 1 / 2 / 2; 
     background-color: aqua;
     
+
+    
     }
     .header { grid-area: 1 / 2 / 2 / 5; 
     background-color: black;}
 
     .aside { grid-area: 2 / 1 / 4 / 2; 
+        
     background-color: brown;}
+
     .footer { grid-area: 4 / 1 / 5 / 5; 
-  
+ 
     background-color: blueviolet;}
     .main { grid-area: 2 / 2 / 4 / 5; 
         background-image: url('../img/Ecoharmony.png');
         background-size: cover;
         background-repeat: no-repeat;
  }
+
