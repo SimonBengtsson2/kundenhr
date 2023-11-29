@@ -65,7 +65,7 @@
 
 .div {
     grid-area: 2 / 1 / 4 / 7;
-    background-color: darkorchid;
+    background-color: #27ae60;
 }
 
 .main2 {
@@ -76,7 +76,7 @@
 
 .footer2 {
     grid-area: 6 / 1 / 7 / 7;
-    background-color: chocolate;
+    background-color: #27ae60;
 }
 
 
@@ -93,15 +93,16 @@
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     background-color: #27ae60;
-
+  
+      
 }
 
 .nav3 {
     grid-area: 1 / 1 / 2 / 2;
-    background-color: whitesmoke;
+    background-color:aquamarine;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content:left;
 }
 
 .header3 {
@@ -223,6 +224,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    
 }
 
 .card3::before {
@@ -428,4 +430,8 @@ background-repeat: repeat;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 18px;
+}
+a {
+    text-decoration: none;
+    font-size:200%;
 }
