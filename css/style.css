@@ -439,3 +439,12 @@ a {
 body{
     background-color: #27ae60;
 }
+
+.title{
+
+text-align: center;
+font-size: x-large;
+color:black;
+font-weight: 200;
+
+}
