@@ -5,95 +5,186 @@
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    background-color:  #27ae60;
-    }
-    
-    .nav{ grid-area: 1 / 1 / 2 / 2; 
+    background-color: #27ae60;
+}
+
+.nav {
+    grid-area: 1 / 1 / 2 / 2;
     background-color: aqua;
-    
-
-    
-    }
-    .header { grid-area: 1 / 2 / 2 / 5; 
-    background-color: black;}
-
-    .aside { grid-area: 2 / 1 / 4 / 2; 
-        
-    background-color: brown;}
-
-    .footer { grid-area: 4 / 1 / 5 / 5; 
- 
-    background-color: blueviolet;}
-    .main { grid-area: 2 / 2 / 4 / 5; 
-        background-image: url('../img/Ecoharmony.png');
-        background-size: cover;
-        background-repeat: no-repeat;
- }
 
 
 
+}
 
- .parent2 {
+.header {
+    grid-area: 1 / 2 / 2 / 5;
+    background-color: black;
+}
+
+.aside {
+    grid-area: 2 / 1 / 4 / 2;
+
+    background-color: brown;
+}
+
+.footer {
+    grid-area: 4 / 1 / 5 / 5;
+
+    background-color: blueviolet;
+}
+
+.main {
+    grid-area: 2 / 2 / 4 / 5;
+    background-image: url('../img/Ecoharmony.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.parent2 {
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    }
+    background-color: #27ae60;
+}
+
+.nav2 {
+    grid-area: 1 / 1 / 2 / 4;
+    background-color:khaki;
+}
+
+.header2 {
+    grid-area: 1 / 4 / 2 / 7;
+    background-color: darkkhaki;
+}
+
+.div {
+    grid-area: 2 / 1 / 4 / 7;
+    background-color: darkorchid;
+}
+
+.main2 {
+    grid-area: 4 / 1 / 6 / 7;
+    background-color: blueviolet;
+}
+
+.footer2 {
+    grid-area: 6 / 1 / 7 / 7;
+    background-color: chocolate;
+}
+
+
+
+
+
+
+
+.parent3 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    background-color: #27ae60;
     
-    .nav2 { grid-area: 1 / 1 / 2 / 4; 
+}
+
+.nav3 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header3 {
+    grid-area: 1 / 2 / 2 / 5;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer3 {
+    grid-area: 6 / 1 / 7 / 6;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main3 {
+    grid-area: 2 / 1 / 6 / 7;
+    background-color: #27ae60;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.card1 {
+    grid-area: 2 / 1 / 4 / 2;
     background-color: black;
-    }
-    
-    .header2 { grid-area: 1 / 4 / 2 / 7; 
-    background-color: darkkhaki;}
-    .div { grid-area: 2 / 1 / 4 / 7; 
-    background-color: darkorchid;}
-    .main2 { grid-area: 4 / 1 / 6 / 7; 
-    background-color: blueviolet;}
-    .footer2 { grid-area: 6 / 1 / 7 / 7; 
-    background-color: chocolate;}
+    background-image: url('../misc/panels.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+   
+}
 
+.card2 {
+    grid-area: 2 / 2 / 4 / 3;
+    background-color: aqua;
+    border-radius: 40px;
+    background-image: url('../misc/vecteezy_tropical-climate-below-a-multi-colored-seascape-adventure_25117778.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.card3 {
+    grid-area: 2 / 3 / 4 / 4;
+    background-color: chartreuse;
+    border-radius: 40px;
+}
 
+.card4 {
+    grid-area: 2 / 4 / 4 / 5;
+    background-color: darkgrey;
+    border-radius: 40px;
+}
 
+.card5 {
+    grid-area: 2 / 5 / 4 / 6;
+    background-color: goldenrod;
+    border-radius: 40px;
+}
 
+.card6 {
+    grid-area: 6 / 1 / 4 / 3;
+    background-color: lightgreen;
+    border-radius: 40px;
+    background-image: url('../misc/alberta-2297204_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.card7 {
+    grid-area: 6 / 3 / 4 / 5;
+    background-color: lightskyblue;
+    border-radius: 40px;
+ background-image: url('../misc/mountain-landscape-2031539_1920.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
 
-    .parent3 {
-        height: 100vh;
-        display:grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        grid-column-gap: 20px;
-        grid-row-gap: 20px;
-        }
-        
-        .nav3 { grid-area: 1 / 1 / 2 / 2; 
-        background-color: black;
-    }
-        .header3 { grid-area: 1 / 2 / 2 / 5;
-        background-color: blueviolet; }
-        .footer3 { grid-area: 6 / 1 / 7 / 6;
-        background-color: blueviolet; }
-        .main3 { grid-area: 2 / 1 / 6 / 6; 
-        background-color: coral;}
-
-
-        .card1 { grid-area: 2 / 1 / 4 / 2; 
-        background-color:black ;}
-.card2 { grid-area: 2 / 2 / 4 / 3; 
-    background-color:aqua ;}
-.card3{ grid-area: 2 / 3 / 4 / 4;
-    background-color:chartreuse ; }
-.card4 { grid-area: 2 / 4 / 4 / 5;
-    background-color:darkgrey ; }
-.card5 { grid-area: 2 / 5 / 4 / 6;
-    background-color:goldenrod ; }
-.card6{ grid-area: 4 / 5 / 6 / 6;
-    background-color:lightgreen ; }
-.card7 { grid-area: 4 / 1 / 6 / 3; 
-    background-color:lightskyblue ;}
-.card8 { grid-area: 4 / 3 / 6 / 5;
-    background-color:sienna ; }
+.card8 {
+    grid-area: 6 / 5 / 4 / 6;
+    background-color: sienna;
+    border-radius: 40px;
+}
