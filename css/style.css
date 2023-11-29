@@ -297,7 +297,9 @@ background-repeat: repeat;
     background-color: goldenrod;
     border-radius: 40px;
     position: relative;
-   
+    background-image: url('../misc/pexels-lisa-fotios-1395958.jpg');  /*maybe changed later on*/
+background-repeat:no-repeat;
+background-size: cover;
 }
 .card5::before {
     content: "";
@@ -383,6 +385,7 @@ background-repeat: repeat;
     opacity: 0;
     transition: opacity 0.3s ease;
     border-radius: 40px;
+   
 }
 
 .card7:hover::before {
@@ -405,6 +408,9 @@ background-repeat: repeat;
     background-color: sienna;
     border-radius: 40px;
     position: relative;
+    background-image: url('../misc/pexels-stella-schafer-2095571.jpg');  /*maybe changed later on*/
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 .card8::before {
     content: "";
