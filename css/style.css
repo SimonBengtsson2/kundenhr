@@ -160,7 +160,8 @@
 
 
 .card1:hover::after {
-    content: "Your Text Here";
+    content: "Solar panels is a great source of renewable energy that is both good for your wallet in the long run aswell as having zero emissions during it's use, if you do not use all the electicity you produce then you can store it or sell it to you neighbours. So invest in solarpanels today for a brighter and emission free world ";
+
     position: absolute;
     top: 50%;
     left: 50%;
