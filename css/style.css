@@ -109,8 +109,10 @@
     grid-area: 1 / 2 / 2 / 5;
     background-color: blueviolet;
     display: flex;
-    align-items: center;
+    align-items: left;
+    top: 0;
     justify-content: center;
+    font-family:serif; /*place holder font*/
 }
 
 .footer3 {
@@ -119,6 +121,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .main3 {
@@ -208,7 +211,7 @@
 
 
 .card2:hover::after {
-    content: "Your Text Here";
+    content: "Navigating the sea responsibly contributes to a healthier planet. Instead choose eco-friendly boating practices, such as electric or solar-powered vessels, helps minimize carbon emissions. By choosing sustainable modes of marine transportation, you can enjoy the sea responsibly, aligning your aquatic adventures with a commitment to a greener, climate-friendly lifestyle.";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -246,7 +249,7 @@
 }
 
 .card3:hover::after {
-    content: "Your Text Here";
+    content: "    Living green extends a helping hand to our fellow inhabitants, the animals. Just as a lizard adapts seamlessly to its environment, embracing an eco-friendly lifestyle supports biodiversity and animal well-being. Reduce your ecological footprint, choose sustainable practices, and foster a habitat where both humans and creatures thrive. Opt for a green life today, creating a harmonious balance that benefits not only us but also the diverse wildlife we share our planet with.";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -283,7 +286,7 @@ background-repeat: repeat;
 }
 
 .card4:hover::after {
-    content: "Your Text Here";
+    content: "  Embrace the power of recycling, transforming waste into a valuable resource. Much like a chameleon adapts to its surroundings, recycling allows us to adapt and thrive in a changing world. By recycling, we reduce waste, conserve resources, and contribute to a more sustainable future. Let's emulate nature's efficient cycle—recycle today for a brighter, greener tomorrow.";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -319,7 +322,7 @@ background-size: cover;
 }
 
 .card5:hover::after {
-    content: "Your Text Here";
+    content: " Nourish your body and the planet through mindful food choices. Just as a bee plays a crucial role in pollination, your food decisions impact the ecosystem. Opt for locally sourced, organic produce to support sustainable agriculture. By making thoughtful choices, you not only prioritize your health but also contribute to a thriving, environmentally friendly food system. Cultivate a plate that's both delicious and green for a healthier you and a happier planet.";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -356,7 +359,7 @@ background-size: cover;
 }
 
 .card6:hover::after {
-    content: "Your Text Here";
+    content: "Behold the mountains, guardians of nature's balance. Their serene grandeur teaches us about coexistence and sustainability. Like the mountains, find your equilibrium in living green. Embrace eco-conscious choices, and let your daily actions create a harmonious rhythm with the environment. Together, we can cultivate a healthier world, mirroring the steadfastness and vitality of the mountains.";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -393,7 +396,7 @@ background-size: cover;
 }
 
 .card7:hover::after {
-    content: "Your Text Here";
+    content: "Embark on a green adventure as invigorating as a mountain hike. Just as the trail winds through the peaks, embrace an eco-friendly lifestyle that leads to greater well-being. Hiking is not only a physical journey but a metaphor for the sustainable path we tread. Immerse yourself in the beauty of nature, and let each step be a commitment to a greener, healthier life.";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -408,7 +411,7 @@ background-size: cover;
     background-color: sienna;
     border-radius: 40px;
     position: relative;
-    background-image: url('../misc/pexels-stella-schafer-2095571.jpg');  /*maybe changed later on*/
+    background-image: url('../misc/pexels-karol-d-582486.jpg');  
     background-repeat:no-repeat;
     background-size: cover;
 }
@@ -423,14 +426,15 @@ background-size: cover;
     opacity: 0;
     transition: opacity 0.3s ease;
     border-radius: 40px;
-}
+ 
+    }
 
 .card8:hover::before {
     opacity: 1;
 }
 
 .card8:hover::after {
-    content: "Your Text Here";
+    content: "Bask in the lush embrace of grassy landscapes, where every blade is a symbol of potential change. Just as grass undergoes cycles of growth, you too can foster positive transformations. Cultivate a lifestyle that aligns with nature's rhythm—making sustainable choices, growing towards greener pastures. Let the verdant meadows inspire a commitment to living healthy and green, where every small change contributes to a flourishing environment.";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -446,11 +450,3 @@ body{
     background-color: #27ae60;
 }
 
-.title{
-
-text-align: center;
-font-size: x-large;
-color:black;
-font-weight: 200;
-
-}
