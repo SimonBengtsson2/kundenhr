@@ -82,6 +82,10 @@ line-height: 5em;
 .main2 {
     grid-area: 4 / 1 / 6 / 7;
     background-color: blueviolet;
+      background-image: url('../misc/logo.png');
+    background-repeat: no-repeat;
+background-size: contain;
+background-position: right;
 
 }
 
@@ -167,14 +171,14 @@ font-weight: 600;
 
 
 .card1::before {
-    content: "S";
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
-    opacity: 100;
+    opacity: 0;
     transition: opacity 0.3s ease;
     border-radius: 40px;
 }
@@ -551,3 +555,28 @@ form {
     font-size: xx-large;
     color: black;
   }
+  #textmain {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 35px; 
+    color: black;
+    width: 80%;
+  }
+  
+#titlemain{
+    font-family: 'EB Garamond', serif;
+    font-weight: 600; font-size: 
+    xx-large; color: black;
+}
+
+#titlediv{
+    font-family: 'EB Garamond', serif; 
+    font-weight: 600; font-size:
+     xx-large; color: black;
+}
+
+#textdiv{
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 35px; color: black;
+}
+
+
