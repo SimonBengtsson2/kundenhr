@@ -11,8 +11,8 @@
 .nav {
     grid-area: 1 / 1 / 2 / 2;
     background-color: aqua;
-
-
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
 
 }
 
@@ -56,6 +56,8 @@
 .nav2 {
     grid-area: 1 / 1 / 2 / 4;
     background-color: khaki;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
 }
 
 .header2 {
@@ -93,16 +95,18 @@
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     background-color: #27ae60;
-  
-      
+
+
 }
 
 .nav3 {
     grid-area: 1 / 1 / 2 / 2;
-    background-color:aquamarine;
+    background-color: aquamarine;
     display: flex;
     align-items: left;
-    justify-content:left;
+    justify-content: left;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
 }
 
 .header3 {
@@ -112,7 +116,8 @@
     align-items: left;
     top: 0;
     justify-content: center;
-    font-family:serif; /*place holder font*/
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
 }
 
 .footer3 {
@@ -164,13 +169,15 @@
 
 .card1:hover::after {
     content: "Solar panels is a great source of renewable energy that is both good for your wallet in the long run aswell as having zero emissions during it's use, if you do not use all the electicity you produce then you can store it or sell it to your neighbours. So invest in solarpanels today for a brighter and emission free world ";
-   
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+
 }
 
 
@@ -217,7 +224,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+
 }
 
 .card3 {
@@ -228,7 +237,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    
+
 }
 
 .card3::before {
@@ -249,13 +258,15 @@
 }
 
 .card3:hover::after {
-    content: "    Living green extends a helping hand to our fellow inhabitants, the animals. Just as a lizard adapts seamlessly to its environment, embracing an eco-friendly lifestyle supports biodiversity and animal well-being. Reduce your ecological footprint, choose sustainable practices, and foster a habitat where both humans and creatures thrive. Opt for a green life today, creating a harmonious balance that benefits not only us but also the diverse wildlife we share our planet with.";
+    content: "    Living green extends a helping hand to our fellow inhabitants, the animals. Just as a lizard adapts seamlessly to its environment, embracing an eco-friendly lifestyle supports biodiversity and animal well-being. Reduce your ecological footprint, and foster a habitat where both humans and creatures thrive. Opt for a green life today, creating a harmonious balance that benefits not only us but also the diverse wildlife we share our planet with.";
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+
 }
 
 .card4 {
@@ -263,9 +274,9 @@
     background-color: darkgrey;
     border-radius: 40px;
     position: relative;
-background-image: url('../misc/pexels-alleksana-4113655.jpg');
-background-size: contain;
-background-repeat: repeat;
+    background-image: url('../misc/pexels-alleksana-4113655.jpg');
+    background-size: contain;
+    background-repeat: repeat;
 }
 
 .card4::before {
@@ -279,6 +290,7 @@ background-repeat: repeat;
     opacity: 0;
     transition: opacity 0.3s ease;
     border-radius: 40px;
+
 }
 
 .card4:hover::before {
@@ -292,7 +304,9 @@ background-repeat: repeat;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+
 }
 
 .card5 {
@@ -300,10 +314,12 @@ background-repeat: repeat;
     background-color: goldenrod;
     border-radius: 40px;
     position: relative;
-    background-image: url('../misc/pexels-lisa-fotios-1395958.jpg');  /*maybe changed later on*/
-background-repeat:no-repeat;
-background-size: cover;
+    background-image: url('../misc/pexels-lisa-fotios-1395958.jpg');
+    /*maybe changed later on*/
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .card5::before {
     content: "";
     position: absolute;
@@ -328,7 +344,9 @@ background-size: cover;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+
 }
 
 
@@ -341,6 +359,7 @@ background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
+
 .card6::before {
     content: "";
     position: absolute;
@@ -365,7 +384,9 @@ background-size: cover;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+
 }
 
 .card7 {
@@ -377,6 +398,7 @@ background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
+
 .card7::before {
     content: "";
     position: absolute;
@@ -388,7 +410,7 @@ background-size: cover;
     opacity: 0;
     transition: opacity 0.3s ease;
     border-radius: 40px;
-   
+
 }
 
 .card7:hover::before {
@@ -402,7 +424,9 @@ background-size: cover;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+
 }
 
 
@@ -411,10 +435,11 @@ background-size: cover;
     background-color: sienna;
     border-radius: 40px;
     position: relative;
-    background-image: url('../misc/pexels-karol-d-582486.jpg');  
-    background-repeat:no-repeat;
+    background-image: url('../misc/pexels-karol-d-582486.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
 }
+
 .card8::before {
     content: "";
     position: absolute;
@@ -426,8 +451,8 @@ background-size: cover;
     opacity: 0;
     transition: opacity 0.3s ease;
     border-radius: 40px;
- 
-    }
+
+}
 
 .card8:hover::before {
     opacity: 1;
@@ -440,13 +465,57 @@ background-size: cover;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+
 }
+
 a {
     text-decoration: none;
-    font-size:200%;
+    font-size: 200%;
 }
-body{
+
+body {
     background-color: #27ae60;
 }
 
+form {
+    background-color: #4654e1;
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+  ::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+  }
+
+
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+  svg {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
