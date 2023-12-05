@@ -13,6 +13,7 @@
     background-color: aqua;
     font-family: 'EB Garamond', serif;
     font-weight: 600;
+   
 
 }
 
@@ -37,7 +38,7 @@
 font-size:xx-large;
 font-weight: 600;
 text-align: center; 
-line-height: 5em;
+line-height: 6em;
 
 
 }
@@ -198,6 +199,7 @@ font-weight: 600;
     color: white;
     font-size: 16px;
     font-family: 'Libre Baskerville', serif;
+   
 
 }
 
@@ -336,7 +338,7 @@ font-weight: 600;
     border-radius: 40px;
     position: relative;
     background-image: url('../misc/pexels-lisa-fotios-1395958.jpg');
-    /*maybe changed later on*/
+    
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -489,11 +491,14 @@ font-weight: 600;
     font-size: 16px;
     font-family: 'Libre Baskerville', serif;
 
+  
+
 }
 
 a {
     text-decoration: none;
     font-size: 200%;
+    color: black;
 }
 
 body {
@@ -580,3 +585,15 @@ form {
 }
 
 
+
+
+.h2 {
+    color: springgreen;
+    text-align: center;
+    line-height: 25em;
+    transition: opacity 0.5s ease; /* Add a smooth transition effect */
+}
+
+.h2:hover {
+    opacity: 0;
+}
