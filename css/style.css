@@ -13,7 +13,7 @@
     background-color: aqua;
     font-family: 'EB Garamond', serif;
     font-weight: 600;
-   
+
 
 }
 
@@ -35,10 +35,10 @@
     align-items: center;
     justify-content: center;
     font-family: 'EB Garamond', serif;
-font-size:xx-large;
-font-weight: 600;
-text-align: center; 
-line-height: 6em;
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+    line-height: 6em;
 
 
 }
@@ -83,10 +83,10 @@ line-height: 6em;
 .main2 {
     grid-area: 4 / 1 / 6 / 7;
     background-color: blueviolet;
-      background-image: url('../misc/logo.png');
+    background-image: url('../misc/logo.png');
     background-repeat: no-repeat;
-background-size: contain;
-background-position: right;
+    background-size: contain;
+    background-position: right;
 
 }
 
@@ -146,8 +146,8 @@ background-position: right;
     align-items: center;
     justify-content: center;
     font-family: 'EB Garamond', serif;
-font-size:xx-large;
-font-weight: 600;
+    font-size: xx-large;
+    font-weight: 600;
 
 }
 
@@ -199,7 +199,7 @@ font-weight: 600;
     color: white;
     font-size: 16px;
     font-family: 'Libre Baskerville', serif;
-   
+
 
 }
 
@@ -338,7 +338,7 @@ font-weight: 600;
     border-radius: 40px;
     position: relative;
     background-image: url('../misc/pexels-lisa-fotios-1395958.jpg');
-    
+
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -491,7 +491,7 @@ font-weight: 600;
     font-size: 16px;
     font-family: 'Libre Baskerville', serif;
 
-  
+
 
 }
 
@@ -506,7 +506,7 @@ body {
 }
 
 form {
-    background-color:  #28ae28;
+    background-color: #28ae28;
 
     width: 300px;
     height: 44px;
@@ -514,74 +514,80 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
+}
 
 
-  input {
+input {
     all: unset;
     font: 16px system-ui;
     color: #fff;
     height: 100%;
     width: 100%;
     padding: 6px 10px;
-  }
+}
 
-  ::placeholder {
+::placeholder {
     color: #fff;
-    opacity: 0.7; 
-  }
+    opacity: 0.7;
+}
 
 
-  button {
+button {
     all: unset;
     cursor: pointer;
     width: 44px;
     height: 44px;
-  }
-  
-  svg {
+}
+
+svg {
     color: black;
     fill: currentColor;
     width: 24px;
     height: 24px;
     padding: 10px;
-  }
+}
 
-  #textaside {
+#textaside {
     font-family: 'Libre Baskerville', serif;
     font-size: 30px;
     color: black;
-  }
+}
 
-  #titleaside{
+#titleaside {
 
     font-family: 'EB Garamond', serif;
     font-weight: 600;
     font-size: xx-large;
     color: black;
-  }
-  #textmain {
+}
+
+#textmain {
     font-family: 'Libre Baskerville', serif;
-    font-size: 35px; 
+    font-size: 35px;
     color: black;
     width: 80%;
-  }
-  
-#titlemain{
+}
+
+#titlemain {
     font-family: 'EB Garamond', serif;
-    font-weight: 600; font-size: 
-    xx-large; color: black;
+    font-weight: 600;
+    font-size:
+        xx-large;
+    color: black;
 }
 
-#titlediv{
-    font-family: 'EB Garamond', serif; 
-    font-weight: 600; font-size:
-     xx-large; color: black;
+#titlediv {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size:
+        xx-large;
+    color: black;
 }
 
-#textdiv{
-    font-family: 'Libre Baskerville', serif; 
-    font-size: 35px; color: black;
+#textdiv {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 35px;
+    color: black;
 }
 
 
@@ -591,7 +597,7 @@ form {
     color: springgreen;
     text-align: center;
     line-height: 25em;
-    transition: opacity 0.5s ease; /* Add a smooth transition effect */
+    transition: opacity 0.5s ease;
 }
 
 .h2:hover {
