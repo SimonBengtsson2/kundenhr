@@ -10,7 +10,7 @@
 
 .nav {
     grid-area: 1 / 1 / 2 / 2;
-    background-color: aqua;
+    background-color: #009C76;
     font-family: 'EB Garamond', serif;
     font-weight: 600;
 
@@ -19,19 +19,19 @@
 
 .header {
     grid-area: 1 / 2 / 2 / 5;
-    background-color: black;
+    background-color: #009C76;
 }
 
 .aside {
     grid-area: 2 / 1 / 4 / 2;
 
-    background-color: brown;
+    background-color: #27AE60;
 }
 
 .footer {
     grid-area: 4 / 1 / 5 / 5;
 
-    background-color: blueviolet;
+    background-color: #009C76;
     align-items: center;
     justify-content: center;
     font-family: 'EB Garamond', serif;
@@ -65,14 +65,14 @@
 
 .nav2 {
     grid-area: 1 / 1 / 2 / 4;
-    background-color: khaki;
+    background-color: #009C76;
     font-family: 'EB Garamond', serif;
     font-weight: 600;
 }
 
 .header2 {
     grid-area: 1 / 4 / 2 / 7;
-    background-color: darkkhaki;
+    background-color: #009C76;
 }
 
 .div {
@@ -82,7 +82,7 @@
 
 .main2 {
     grid-area: 4 / 1 / 6 / 7;
-    background-color: blueviolet;
+    background-color: #27ae60;
     background-image: url('../misc/logo.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -92,7 +92,7 @@
 
 .footer2 {
     grid-area: 6 / 1 / 7 / 7;
-    background-color: #27ae60;
+    background-color: #009C76;
     font-family: 'EB Garamond', serif;
     font-size: xx-large;
     font-weight: 600;
@@ -113,14 +113,14 @@
     grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    background-color: #27ae60;
+    background-color: #009C76;
 
 
 }
 
 .nav3 {
     grid-area: 1 / 1 / 2 / 2;
-    background-color: aquamarine;
+    background-color: #009C76;
     display: flex;
     align-items: left;
     justify-content: left;
@@ -130,7 +130,7 @@
 
 .header3 {
     grid-area: 1 / 2 / 2 / 5;
-    background-color: blueviolet;
+    background-color: #009C76;
     display: flex;
     align-items: left;
     top: 0;
@@ -141,7 +141,7 @@
 
 .footer3 {
     grid-area: 6 / 1 / 7 / 6;
-    background-color: blueviolet;
+    background-color: #009C76;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +163,7 @@
 .card1 {
     grid-area: 2 / 1 / 4 / 2;
     background-color: black;
-    background-image: url('../misc/panels.jpg');
+    background-image: url('../img/panels.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 40px;
@@ -197,9 +197,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'Libre Baskerville', serif;
-
+    overflow-y: scroll;
+    max-height: 200px;
+    width: 400px;
 
 }
 
@@ -214,7 +216,7 @@
     grid-area: 2 / 2 / 4 / 3;
     background-color: aqua;
     border-radius: 40px;
-    background-image: url('../misc/vecteezy_tropical-climate-below-a-multi-colored-seascape-adventure_25117778.jpg');
+    background-image: url('../img/vecteezy_tropical-climate-below-a-multi-colored-seascape-adventure_25117778.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -247,8 +249,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'Libre Baskerville', serif;
+    overflow-y: scroll;
+    max-height: 200px;
+    width: 400px;
 
 }
 
@@ -256,7 +261,7 @@
     grid-area: 2 / 3 / 4 / 4;
     background-color: chartreuse;
     border-radius: 40px;
-    background-image: url('../misc/reptile.jpg');
+    background-image: url('../img/reptile.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -287,9 +292,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'Libre Baskerville', serif;
-
+    overflow-y: scroll;
+    max-height: 200px;
+    width: 400px;
 }
 
 .card4 {
@@ -297,7 +304,7 @@
     background-color: darkgrey;
     border-radius: 40px;
     position: relative;
-    background-image: url('../misc/pexels-alleksana-4113655.jpg');
+    background-image: url('../img/pexels-alleksana-4113655.jpg');
     background-size: contain;
     background-repeat: repeat;
 }
@@ -327,9 +334,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'Libre Baskerville', serif;
-
+    overflow-y: scroll;
+    max-height: 200px;
+    width: 400px;
 }
 
 .card5 {
@@ -337,7 +346,7 @@
     background-color: goldenrod;
     border-radius: 40px;
     position: relative;
-    background-image: url('../misc/pexels-lisa-fotios-1395958.jpg');
+    background-image: url('../img/pexels-lisa-fotios-1395958.jpg');
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -367,17 +376,19 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'Libre Baskerville', serif;
+    overflow-y: scroll;
+    max-height: 200px;
+    width: 400px;
 
 }
-
 
 .card6 {
     grid-area: 6 / 1 / 4 / 3;
     background-color: lightgreen;
     border-radius: 40px;
-    background-image: url('../misc/alberta-2297204_1920.jpg');
+    background-image: url('../img/alberta-2297204_1920.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -407,16 +418,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'Libre Baskerville', serif;
-
+    overflow-y: scroll;
+    max-height: 200px;
+    width: 600px;
 }
 
 .card7 {
     grid-area: 6 / 3 / 4 / 5;
     background-color: lightskyblue;
     border-radius: 40px;
-    background-image: url('../misc/mountain-landscape-2031539_1920.jpg');
+    background-image: url('../img/mountain-landscape-2031539_1920.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -447,8 +460,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'Libre Baskerville', serif;
+    overflow-y: scroll;
+    max-height: 200px;
+    width: 600px;
 
 }
 
@@ -458,7 +474,7 @@
     background-color: sienna;
     border-radius: 40px;
     position: relative;
-    background-image: url('../misc/pexels-karol-d-582486.jpg');
+    background-image: url('../img/pexels-karol-d-582486.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -488,12 +504,16 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'Libre Baskerville', serif;
-
-
-
+    overflow-y: scroll;
+    max-height: 200px;
+    width: 400px;
 }
+
+
+
+
 
 a {
     text-decoration: none;
@@ -549,7 +569,7 @@ svg {
 
 #textaside {
     font-family: 'Libre Baskerville', serif;
-    font-size: 30px;
+    font-size: large;
     color: black;
 }
 
@@ -579,8 +599,7 @@ svg {
 #titlediv {
     font-family: 'EB Garamond', serif;
     font-weight: 600;
-    font-size:
-        xx-large;
+    font-size: xx-large;
     color: black;
 }
 
