@@ -122,7 +122,7 @@
     grid-area: 1 / 1 / 2 / 2;
     background-color: #009C76;
     display: flex;
-    align-items: left;
+    align-items:flex-start;
     justify-content: left;
     font-family: 'EB Garamond', serif;
     font-weight: 600;
@@ -132,7 +132,7 @@
     grid-area: 1 / 2 / 2 / 5;
     background-color: #009C76;
     display: flex;
-    align-items: left;
+    align-items:flex-start;
     top: 0;
     justify-content: center;
     font-family: 'EB Garamond', serif;
@@ -534,6 +534,7 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
 
@@ -569,8 +570,9 @@ svg {
 
 #textaside {
     font-family: 'Libre Baskerville', serif;
-    font-size: large;
+    font-size: 25px;
     color: black;
+
 }
 
 #titleaside {
@@ -622,3 +624,5 @@ svg {
 .h2:hover {
     opacity: 0;
 }
+
+
