@@ -13,7 +13,7 @@
     background-color: #009C76;
     font-family: 'EB Garamond', serif;
     font-weight: 600;
-
+    font-size:larger;
 
 }
 
@@ -68,11 +68,13 @@
     background-color: #009C76;
     font-family: 'EB Garamond', serif;
     font-weight: 600;
+    font-size:larger;
 }
 
 .header2 {
     grid-area: 1 / 4 / 2 / 7;
     background-color: #009C76;
+    font-size:larger;
 }
 
 .div {
@@ -83,7 +85,7 @@
 .main2 {
     grid-area: 4 / 1 / 6 / 7;
     background-color: #27ae60;
-    background-image: url('../misc/logo.png');
+    background-image: url('../img/logo.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -126,6 +128,8 @@
     justify-content: left;
     font-family: 'EB Garamond', serif;
     font-weight: 600;
+    font-size:larger;
+
 }
 
 .header3 {
@@ -137,6 +141,7 @@
     justify-content: center;
     font-family: 'EB Garamond', serif;
     font-weight: 600;
+    font-size:larger;
 }
 
 .footer3 {
@@ -149,6 +154,7 @@
     font-size: xx-large;
     font-weight: 600;
 
+    
 }
 
 .main3 {
@@ -163,7 +169,7 @@
 .card1 {
     grid-area: 2 / 1 / 4 / 2;
     background-color: black;
-    background-image: url('../img/panels.jpg');
+    background-image: url('../misc/panels.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 40px;
@@ -198,8 +204,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 22px;
-    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    font-family:Helvetica, sans-serif;
     overflow-y: scroll;
     max-height: 200px;
     width: 400px;
@@ -217,7 +223,7 @@
     grid-area: 2 / 2 / 4 / 3;
     background-color: aqua;
     border-radius: 40px;
-    background-image: url('../img/vecteezy_tropical-climate-below-a-multi-colored-seascape-adventure_25117778.jpg');
+    background-image: url('../misc/vecteezy_tropical-climate-below-a-multi-colored-seascape-adventure_25117778.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -251,8 +257,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 22px;
-    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    font-family:Helvetica, sans-serif;
     overflow-y: scroll;
     max-height: 200px;
     width: 400px;
@@ -263,7 +269,7 @@
     grid-area: 2 / 3 / 4 / 4;
     background-color: chartreuse;
     border-radius: 40px;
-    background-image: url('../img/reptile.jpg');
+    background-image: url('../misc/reptile.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -295,8 +301,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 22px;
-    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    font-family:Helvetica, sans-serif;
     overflow-y: scroll;
     max-height: 200px;
     width: 400px;
@@ -307,7 +313,7 @@
     background-color: darkgrey;
     border-radius: 40px;
     position: relative;
-    background-image: url('../img/pexels-alleksana-4113655.jpg');
+    background-image: url('../misc/pexels-alleksana-4113655.jpg');
     background-size: contain;
     background-repeat: repeat;
     overflow: hidden;
@@ -338,8 +344,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 22px;
-    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    font-family:Helvetica, sans-serif;
     overflow-y: scroll;
     max-height: 200px;
     width: 400px;
@@ -350,7 +356,7 @@
     background-color: goldenrod;
     border-radius: 40px;
     position: relative;
-    background-image: url('../img/pexels-lisa-fotios-1395958.jpg');
+    background-image: url('../misc/pexels-lisa-fotios-1395958.jpg');
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -381,8 +387,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 22px;
-    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    font-family:Helvetica, sans-serif;
     overflow-y: scroll;
     max-height: 200px;
     width: 400px;
@@ -393,7 +399,7 @@
     grid-area: 6 / 1 / 4 / 3;
     background-color: lightgreen;
     border-radius: 40px;
-    background-image: url('../img/alberta-2297204_1920.jpg');
+    background-image: url('../misc/alberta-2297204_1920.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -424,8 +430,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 22px;
-    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    font-family:Helvetica, sans-serif;
     overflow-y: scroll;
     max-height: 200px;
     width: 600px;
@@ -435,7 +441,7 @@
     grid-area: 6 / 3 / 4 / 5;
     background-color: lightskyblue;
     border-radius: 40px;
-    background-image: url('../img/mountain-landscape-2031539_1920.jpg');
+    background-image: url('../misc/mountain-landscape-2031539_1920.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -467,8 +473,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 22px;
-    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    font-family:Helvetica, sans-serif;
     overflow-y: scroll;
     max-height: 200px;
     width: 600px;
@@ -481,7 +487,7 @@
     background-color: sienna;
     border-radius: 40px;
     position: relative;
-    background-image: url('../img/pexels-karol-d-582486.jpg');
+    background-image: url('../misc/pexels-karol-d-582486.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -512,9 +518,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 22px;
+    font-size: 24px;
 
-    font-family: 'Libre Baskerville', serif;
+    font-family:Helvetica, sans-serif;
     overflow-y: scroll;
     max-height: 200px;
     width: 400px;
@@ -535,7 +541,7 @@ body {
 }
 
 form {
-    background-color: #28ae28;
+    background-color: #008781;
 
     width: 300px;
     height: 44px;
@@ -578,8 +584,8 @@ svg {
 }
 
 #textaside {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 25px;
+    font-family:Helvetica, sans-serif;
+    font-size: 30px;
     color: black;
 
 }
@@ -588,13 +594,13 @@ svg {
 
     font-family: 'EB Garamond', serif;
     font-weight: 600;
-    font-size: xx-large;
+    font-size: 40px;
     color: black;
 }
 
 #textmain {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 35px;
+    font-family:Helvetica, sans-serif;
+    font-size: 30px;
     color: black;
     width: 80%;
 }
@@ -603,21 +609,22 @@ svg {
     font-family: 'EB Garamond', serif;
     font-weight: 600;
     font-size:
-        xx-large;
+        40px;
     color: black;
 }
 
 #titlediv {
     font-family: 'EB Garamond', serif;
     font-weight: 600;
-    font-size: xx-large;
+    font-size:40px;
     color: black;
 }
 
 #textdiv {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 35px;
+    font-family:Helvetica, sans-serif;
+    font-size: 30px;
     color: black;
+    
 }
 
 
